@@ -1,0 +1,227 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "FraudLabs Pro",
+        "description": "Online payment fraud detection service. It helps merchants to minimize chargebacks and therefore maximize the revenue. It can be used to detect fraud for various kinds of payment method, such as credit card, paypal, cod and so on. Please visit https:\/\/www.fraudlabspro.com to learn more.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsvirtserver.swaggerhub.com\/fraudlabspro\/fraudlabspro\/1.0"
+    ],
+    "paths": {
+        "\/v1\/order\/screen": {
+            "post": {
+                "summary": "V1OrderScreen_POST",
+                "description": "Screen order for payment fraud.",
+                "operationId": "V1OrderScreenPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "ip",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "key",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "last_name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "first_name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "bill_addr",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "bill_city",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "bill_state",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "bill_country",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "bill_zip_code",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "ship_addr",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "ship_city",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "ship_state",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "ship_country",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "ship_zip_code",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "email_domain",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "user_phone",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "email",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "email_hash",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "username_hash",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "password_hash",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "bin_no",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "card_hash",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "avs_result",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "cvv_result",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "user_order_id",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "user_order_memo",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "amount",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "quantity",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "currency",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "department",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "payment_mode",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "flp_checksum",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/order\/feedback": {
+            "post": {
+                "summary": "V1OrderFeedback_POST",
+                "description": "Feedback the status of an order transaction.",
+                "operationId": "V1OrderFeedbackPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "key",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "action",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "notes",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
