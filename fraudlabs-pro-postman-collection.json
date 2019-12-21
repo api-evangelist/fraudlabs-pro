@@ -1,5 +1,5 @@
 {
-    "id": "7231697737f0365f7c41f9590c18cd4b",
+    "id": "3c0d2ba271aa9e5d506716d51211af96",
     "name": "FraudLabs Pro",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "78bf0d371232613356ae3c7868fb4476",
+            "id": "99f25453d13ff13edd0f6483af63daf5",
             "name": "V1OrderScreen_POST",
             "url": "httpsvirtserver.swaggerhub.com\/fraudlabspro\/fraudlabspro\/1.0\/v1\/order\/screen",
             "description": "Screen order for payment fraud.",
@@ -261,11 +261,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "7231697737f0365f7c41f9590c18cd4b",
+            "collectionId": "3c0d2ba271aa9e5d506716d51211af96",
             "rawModeData": ""
         },
         {
-            "id": "ff2ab8819456ea8457e3061905d5f95c",
+            "id": "fd6852455c143d20e45d420c94587c93",
             "name": "V1OrderFeedback_POST",
             "url": "httpsvirtserver.swaggerhub.com\/fraudlabspro\/fraudlabspro\/1.0\/v1\/order\/feedback",
             "description": "Feedback the status of an order transaction.",
@@ -320,7 +320,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "7231697737f0365f7c41f9590c18cd4b",
+            "collectionId": "3c0d2ba271aa9e5d506716d51211af96",
             "rawModeData": ""
         }
     ]
