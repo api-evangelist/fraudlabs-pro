@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://www.fraudlabspro.com/developer/api/screen-order
 common:
+  - type: DomainSecurity
+    url: security/fraudlabs-pro-domain-security.yml
   - type: Website
     url: https://www.fraudlabspro.com/developer/api/screen-order
   - type: PublicAPIsListing
