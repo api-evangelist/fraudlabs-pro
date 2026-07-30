@@ -1,4 +1,16 @@
 aid: fraudlabs-pro
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fraudlabs-pro.png
 name: FraudLabs Pro
 description: "Screen order information using AI to detect frauds"
 url: https://www.fraudlabspro.com/developer/api/screen-order
