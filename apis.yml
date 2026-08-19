@@ -14,7 +14,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fraudlabs-
 name: FraudLabs Pro
 description: "Screen order information using AI to detect frauds"
 url: https://www.fraudlabspro.com/developer/api/screen-order
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-05-28'
 modified: '2026-05-28'
 x-source: public-apis/public-apis
