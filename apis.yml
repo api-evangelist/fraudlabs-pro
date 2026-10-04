@@ -39,7 +39,6 @@ apis:
   - name: FraudLabs Pro
     description: "Screen order information using AI to detect frauds"
     humanURL: https://www.fraudlabspro.com/developer/api/screen-order
-    baseURL: https://www.fraudlabspro.com/developer/api/screen-order
     tags:
       - Security
     properties:
